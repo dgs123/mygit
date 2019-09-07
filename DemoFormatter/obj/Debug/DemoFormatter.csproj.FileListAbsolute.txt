@@ -1,0 +1,7 @@
+F:\Code\WindowsFormsBianChengShiZhan\DemoFormatter\bin\Debug\DemoFormatter.exe.config
+F:\Code\WindowsFormsBianChengShiZhan\DemoFormatter\bin\Debug\DemoFormatter.exe
+F:\Code\WindowsFormsBianChengShiZhan\DemoFormatter\bin\Debug\DemoFormatter.pdb
+F:\Code\WindowsFormsBianChengShiZhan\DemoFormatter\obj\Debug\DemoFormatter.csprojAssemblyReference.cache
+F:\Code\WindowsFormsBianChengShiZhan\DemoFormatter\obj\Debug\DemoFormatter.csproj.CoreCompileInputs.cache
+F:\Code\WindowsFormsBianChengShiZhan\DemoFormatter\obj\Debug\DemoFormatter.exe
+F:\Code\WindowsFormsBianChengShiZhan\DemoFormatter\obj\Debug\DemoFormatter.pdb
