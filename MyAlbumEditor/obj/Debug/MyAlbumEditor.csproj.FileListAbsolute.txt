@@ -1,0 +1,15 @@
+F:\Code\WindowsFormsBianChengShiZhan\MyAlbumEditor\bin\Debug\MyAlbumEditor.exe.config
+F:\Code\WindowsFormsBianChengShiZhan\MyAlbumEditor\bin\Debug\MyAlbumEditor.exe
+F:\Code\WindowsFormsBianChengShiZhan\MyAlbumEditor\bin\Debug\MyAlbumEditor.pdb
+F:\Code\WindowsFormsBianChengShiZhan\MyAlbumEditor\bin\Debug\MyPhotoAlbum.dll
+F:\Code\WindowsFormsBianChengShiZhan\MyAlbumEditor\bin\Debug\MyPhotoControls.dll
+F:\Code\WindowsFormsBianChengShiZhan\MyAlbumEditor\bin\Debug\MyPhotoAlbum.pdb
+F:\Code\WindowsFormsBianChengShiZhan\MyAlbumEditor\bin\Debug\MyPhotoControls.pdb
+F:\Code\WindowsFormsBianChengShiZhan\MyAlbumEditor\obj\Debug\MyAlbumEditor.csprojAssemblyReference.cache
+F:\Code\WindowsFormsBianChengShiZhan\MyAlbumEditor\obj\Debug\MyAlbumEditor.EditorForm.resources
+F:\Code\WindowsFormsBianChengShiZhan\MyAlbumEditor\obj\Debug\MyAlbumEditor.Properties.Resources.resources
+F:\Code\WindowsFormsBianChengShiZhan\MyAlbumEditor\obj\Debug\MyAlbumEditor.csproj.GenerateResource.cache
+F:\Code\WindowsFormsBianChengShiZhan\MyAlbumEditor\obj\Debug\MyAlbumEditor.csproj.CoreCompileInputs.cache
+F:\Code\WindowsFormsBianChengShiZhan\MyAlbumEditor\obj\Debug\MyAlbumEditor.csproj.CopyComplete
+F:\Code\WindowsFormsBianChengShiZhan\MyAlbumEditor\obj\Debug\MyAlbumEditor.exe
+F:\Code\WindowsFormsBianChengShiZhan\MyAlbumEditor\obj\Debug\MyAlbumEditor.pdb

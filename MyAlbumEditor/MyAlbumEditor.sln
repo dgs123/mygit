@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29123.89
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyAlbumEditor", "MyAlbumEditor.csproj", "{A67B91EA-FA52-4E5B-886D-C990E198399F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyPhotoAlbum", "..\Chapter02\MyPhotoAlbum\MyPhotoAlbum.csproj", "{465E025D-EE3C-4411-A7CB-16BEDDC59DEB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyPhotoControls", "..\Chapter02\MyPhotoControls\MyPhotoControls.csproj", "{BF2F7665-013B-480F-BE3E-ECC395E87796}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A67B91EA-FA52-4E5B-886D-C990E198399F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A67B91EA-FA52-4E5B-886D-C990E198399F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A67B91EA-FA52-4E5B-886D-C990E198399F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A67B91EA-FA52-4E5B-886D-C990E198399F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{465E025D-EE3C-4411-A7CB-16BEDDC59DEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{465E025D-EE3C-4411-A7CB-16BEDDC59DEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{465E025D-EE3C-4411-A7CB-16BEDDC59DEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{465E025D-EE3C-4411-A7CB-16BEDDC59DEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF2F7665-013B-480F-BE3E-ECC395E87796}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF2F7665-013B-480F-BE3E-ECC395E87796}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF2F7665-013B-480F-BE3E-ECC395E87796}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF2F7665-013B-480F-BE3E-ECC395E87796}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6EBB68D4-DC5A-4D4E-A10A-D208F01CC2ED}
+	EndGlobalSection
+EndGlobal
