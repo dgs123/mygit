@@ -1,0 +1,15 @@
+F:\Code\WindowsFormsBianChengShiZhan\Chapter02\MyPhotoControls\bin\Debug\MyPhotoControls.dll
+F:\Code\WindowsFormsBianChengShiZhan\Chapter02\MyPhotoControls\bin\Debug\MyPhotoControls.pdb
+F:\Code\WindowsFormsBianChengShiZhan\Chapter02\MyPhotoControls\bin\Debug\MyPhotoAlbum.dll
+F:\Code\WindowsFormsBianChengShiZhan\Chapter02\MyPhotoControls\bin\Debug\MyPhotoAlbum.pdb
+F:\Code\WindowsFormsBianChengShiZhan\Chapter02\MyPhotoControls\obj\Debug\MyPhotoControls.csprojAssemblyReference.cache
+F:\Code\WindowsFormsBianChengShiZhan\Chapter02\MyPhotoControls\obj\Debug\Manning.MyPhotoControls.BaseEditDialog.resources
+F:\Code\WindowsFormsBianChengShiZhan\Chapter02\MyPhotoControls\obj\Debug\Manning.MyPhotoControls.PixelDialog.resources
+F:\Code\WindowsFormsBianChengShiZhan\Chapter02\MyPhotoControls\obj\Debug\MyPhotoControls.csproj.GenerateResource.cache
+F:\Code\WindowsFormsBianChengShiZhan\Chapter02\MyPhotoControls\obj\Debug\MyPhotoControls.csproj.CoreCompileInputs.cache
+F:\Code\WindowsFormsBianChengShiZhan\Chapter02\MyPhotoControls\obj\Debug\MyPhotoControls.csproj.CopyComplete
+F:\Code\WindowsFormsBianChengShiZhan\Chapter02\MyPhotoControls\obj\Debug\MyPhotoControls.dll
+F:\Code\WindowsFormsBianChengShiZhan\Chapter02\MyPhotoControls\obj\Debug\MyPhotoControls.pdb
+F:\Code\WindowsFormsBianChengShiZhan\Chapter02\MyPhotoControls\obj\Debug\Manning.MyPhotoControls.PhotoEditDialog.resources
+F:\Code\WindowsFormsBianChengShiZhan\Chapter02\MyPhotoControls\obj\Debug\Manning.MyPhotoControls.AlbumEditDialog.resources
+F:\Code\WindowsFormsBianChengShiZhan\Chapter02\MyPhotoControls\obj\Debug\Manning.MyPhotoControls.AlbumPasswordDialog.resources

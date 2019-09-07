@@ -1,0 +1,15 @@
+F:\Code\WindowsFormsBianChengShiZhan\Chapter02\MyPhotos\bin\Debug\MyPhotos.exe.config
+F:\Code\WindowsFormsBianChengShiZhan\Chapter02\MyPhotos\bin\Debug\MyPhotos.exe
+F:\Code\WindowsFormsBianChengShiZhan\Chapter02\MyPhotos\bin\Debug\MyPhotos.pdb
+F:\Code\WindowsFormsBianChengShiZhan\Chapter02\MyPhotos\obj\Debug\MyPhotos.csprojAssemblyReference.cache
+F:\Code\WindowsFormsBianChengShiZhan\Chapter02\MyPhotos\obj\Debug\MyPhotos.Properties.Resources.resources
+F:\Code\WindowsFormsBianChengShiZhan\Chapter02\MyPhotos\obj\Debug\MyPhotos.csproj.GenerateResource.cache
+F:\Code\WindowsFormsBianChengShiZhan\Chapter02\MyPhotos\obj\Debug\MyPhotos.csproj.CoreCompileInputs.cache
+F:\Code\WindowsFormsBianChengShiZhan\Chapter02\MyPhotos\obj\Debug\MyPhotos.exe
+F:\Code\WindowsFormsBianChengShiZhan\Chapter02\MyPhotos\obj\Debug\MyPhotos.pdb
+F:\Code\WindowsFormsBianChengShiZhan\Chapter02\MyPhotos\obj\Debug\MyPhotos.MainForm.resources
+F:\Code\WindowsFormsBianChengShiZhan\Chapter02\MyPhotos\bin\Debug\MyPhotoAlbum.dll
+F:\Code\WindowsFormsBianChengShiZhan\Chapter02\MyPhotos\bin\Debug\MyPhotoAlbum.pdb
+F:\Code\WindowsFormsBianChengShiZhan\Chapter02\MyPhotos\obj\Debug\MyPhotos.csproj.CopyComplete
+F:\Code\WindowsFormsBianChengShiZhan\Chapter02\MyPhotos\bin\Debug\MyPhotoControls.dll
+F:\Code\WindowsFormsBianChengShiZhan\Chapter02\MyPhotos\bin\Debug\MyPhotoControls.pdb

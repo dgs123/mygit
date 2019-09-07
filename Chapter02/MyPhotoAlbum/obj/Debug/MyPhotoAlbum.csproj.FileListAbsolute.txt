@@ -1,0 +1,6 @@
+F:\Code\WindowsFormsBianChengShiZhan\Chapter02\MyPhotoAlbum\bin\Debug\MyPhotoAlbum.dll
+F:\Code\WindowsFormsBianChengShiZhan\Chapter02\MyPhotoAlbum\bin\Debug\MyPhotoAlbum.pdb
+F:\Code\WindowsFormsBianChengShiZhan\Chapter02\MyPhotoAlbum\obj\Debug\MyPhotoAlbum.csprojAssemblyReference.cache
+F:\Code\WindowsFormsBianChengShiZhan\Chapter02\MyPhotoAlbum\obj\Debug\MyPhotoAlbum.csproj.CoreCompileInputs.cache
+F:\Code\WindowsFormsBianChengShiZhan\Chapter02\MyPhotoAlbum\obj\Debug\MyPhotoAlbum.dll
+F:\Code\WindowsFormsBianChengShiZhan\Chapter02\MyPhotoAlbum\obj\Debug\MyPhotoAlbum.pdb
