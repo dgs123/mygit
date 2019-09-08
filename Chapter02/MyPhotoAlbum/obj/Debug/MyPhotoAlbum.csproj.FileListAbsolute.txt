@@ -4,3 +4,8 @@ F:\Code\WindowsFormsBianChengShiZhan\Chapter02\MyPhotoAlbum\obj\Debug\MyPhotoAlb
 F:\Code\WindowsFormsBianChengShiZhan\Chapter02\MyPhotoAlbum\obj\Debug\MyPhotoAlbum.csproj.CoreCompileInputs.cache
 F:\Code\WindowsFormsBianChengShiZhan\Chapter02\MyPhotoAlbum\obj\Debug\MyPhotoAlbum.dll
 F:\Code\WindowsFormsBianChengShiZhan\Chapter02\MyPhotoAlbum\obj\Debug\MyPhotoAlbum.pdb
+D:\mygit\Chapter02\MyPhotoAlbum\bin\Debug\MyPhotoAlbum.dll
+D:\mygit\Chapter02\MyPhotoAlbum\bin\Debug\MyPhotoAlbum.pdb
+D:\mygit\Chapter02\MyPhotoAlbum\obj\Debug\MyPhotoAlbum.csprojAssemblyReference.cache
+D:\mygit\Chapter02\MyPhotoAlbum\obj\Debug\MyPhotoAlbum.dll
+D:\mygit\Chapter02\MyPhotoAlbum\obj\Debug\MyPhotoAlbum.pdb

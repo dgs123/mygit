@@ -30,7 +30,7 @@ namespace Manning.MyPhotoControls
             InitializeComponent();
             this.toolTip1.SetToolTip(txtPhotoFile, "Photo file");
             this.toolTip1.SetToolTip(txtCaption, "Photo caption");
-            this.toolTip1.SetToolTip(mskDateTaken, "Photographs taken  date");
+            this.toolTip1.SetToolTip(dtpDateTaken, "Photographs taken date");
             this.toolTip1.SetToolTip(comboPhotographer, "Who take the photo?");
             this.toolTip1.SetToolTip(txtNotes, "This is notes message box");
         }
@@ -38,7 +38,6 @@ namespace Manning.MyPhotoControls
         {
             _photo = photo;
             ResetDialog();
-            mskDateTaken.ValidatingType = typeof(CurrentDate);
         }
         public PhotoEditDialog(Photograph photo):this()
         {
@@ -83,7 +82,7 @@ namespace Manning.MyPhotoControls
             {
                 txtPhotoFile.Text = photo.FileName;
                 txtCaption.Text = photo.Caption;
-                mskDateTaken.Text = photo.DateTaken.ToString();
+                dtpDateTaken.Value = photo.DateTaken;
                 comboPhotographer.Text = photo.Photographer;
                 txtNotes.Text= photo.Notes;
             }
@@ -107,14 +106,7 @@ namespace Manning.MyPhotoControls
                 photo.Caption = txtCaption.Text;
                 photo.Photographer = comboPhotographer.Text;
                 photo.Notes = txtNotes.Text;
-
-                // On parse error , do not set date
-                try
-                {
-                    photo.DateTaken = DateTime.Parse(mskDateTaken.Text);
-                }
-                catch (FormatException)
-                {}
+                photo.DateTaken = dtpDateTaken.Value;
             }
         }
 
@@ -186,19 +178,6 @@ namespace Manning.MyPhotoControls
                 tsmiCopy.Enabled = false;
                 tsmiCut.Enabled = false;
                 tsmiDelete.Enabled = false;
-            }
-        }
-
-        private static class CurrentDate
-        {
-            public static DateTime Parse(string input)
-            {
-                DateTime result = DateTime.Parse(input);
-                if (result > DateTime.Now)
-                {
-                    throw new FormatException("The given date is in the future.");
-                }
-                return result;
             }
         }
 

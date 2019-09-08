@@ -36,7 +36,6 @@
             this.txtCaption = new System.Windows.Forms.TextBox();
             this.lblPhotoTakenDate = new System.Windows.Forms.Label();
             this.lblPhotographer = new System.Windows.Forms.Label();
-            this.mskDateTaken = new System.Windows.Forms.MaskedTextBox();
             this.comboPhotographer = new System.Windows.Forms.ComboBox();
             this.lblNotes = new System.Windows.Forms.Label();
             this.txtNotes = new System.Windows.Forms.TextBox();
@@ -50,6 +49,7 @@
             this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripSeparator();
             this.tsmiSelectAll = new System.Windows.Forms.ToolStripMenuItem();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
+            this.dtpDateTaken = new System.Windows.Forms.DateTimePicker();
             this.panel1.SuspendLayout();
             this.tablePanel.SuspendLayout();
             this.contextMenuStrip1.SuspendLayout();
@@ -58,8 +58,8 @@
             // panel1
             // 
             this.panel1.Controls.Add(this.tablePanel);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.panel1.Size = new System.Drawing.Size(556, 374);
+            this.panel1.Margin = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.panel1.Size = new System.Drawing.Size(417, 299);
             // 
             // tablePanel
             // 
@@ -72,18 +72,18 @@
             this.tablePanel.Controls.Add(this.txtCaption, 1, 1);
             this.tablePanel.Controls.Add(this.lblPhotoTakenDate, 0, 2);
             this.tablePanel.Controls.Add(this.lblPhotographer, 0, 3);
-            this.tablePanel.Controls.Add(this.mskDateTaken, 1, 2);
             this.tablePanel.Controls.Add(this.comboPhotographer, 1, 3);
+            this.tablePanel.Controls.Add(this.dtpDateTaken, 1, 2);
             this.tablePanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tablePanel.Location = new System.Drawing.Point(0, 0);
-            this.tablePanel.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.tablePanel.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
             this.tablePanel.Name = "tablePanel";
             this.tablePanel.RowCount = 4;
             this.tablePanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.tablePanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.tablePanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.tablePanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tablePanel.Size = new System.Drawing.Size(554, 372);
+            this.tablePanel.Size = new System.Drawing.Size(415, 297);
             this.tablePanel.TabIndex = 0;
             // 
             // lblPhotoFile
@@ -91,9 +91,10 @@
             this.lblPhotoFile.AutoSize = true;
             this.lblPhotoFile.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.lblPhotoFile.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblPhotoFile.Location = new System.Drawing.Point(3, 0);
+            this.lblPhotoFile.Location = new System.Drawing.Point(2, 0);
+            this.lblPhotoFile.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblPhotoFile.Name = "lblPhotoFile";
-            this.lblPhotoFile.Size = new System.Drawing.Size(187, 93);
+            this.lblPhotoFile.Size = new System.Drawing.Size(141, 74);
             this.lblPhotoFile.TabIndex = 0;
             this.lblPhotoFile.Text = "Photo &File";
             this.lblPhotoFile.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -101,21 +102,22 @@
             // txtPhotoFile
             // 
             this.txtPhotoFile.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.txtPhotoFile.Location = new System.Drawing.Point(196, 2);
-            this.txtPhotoFile.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtPhotoFile.Location = new System.Drawing.Point(147, 1);
+            this.txtPhotoFile.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
             this.txtPhotoFile.Multiline = true;
             this.txtPhotoFile.Name = "txtPhotoFile";
             this.txtPhotoFile.ReadOnly = true;
-            this.txtPhotoFile.Size = new System.Drawing.Size(355, 89);
+            this.txtPhotoFile.Size = new System.Drawing.Size(266, 72);
             this.txtPhotoFile.TabIndex = 1;
             // 
             // lblPhotoCaption
             // 
             this.lblPhotoCaption.AutoSize = true;
             this.lblPhotoCaption.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblPhotoCaption.Location = new System.Drawing.Point(3, 93);
+            this.lblPhotoCaption.Location = new System.Drawing.Point(2, 74);
+            this.lblPhotoCaption.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblPhotoCaption.Name = "lblPhotoCaption";
-            this.lblPhotoCaption.Size = new System.Drawing.Size(187, 93);
+            this.lblPhotoCaption.Size = new System.Drawing.Size(141, 74);
             this.lblPhotoCaption.TabIndex = 2;
             this.lblPhotoCaption.Text = "Cap&tion";
             this.lblPhotoCaption.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -123,11 +125,11 @@
             // txtCaption
             // 
             this.txtCaption.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.txtCaption.Location = new System.Drawing.Point(196, 95);
-            this.txtCaption.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtCaption.Location = new System.Drawing.Point(147, 75);
+            this.txtCaption.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
             this.txtCaption.Multiline = true;
             this.txtCaption.Name = "txtCaption";
-            this.txtCaption.Size = new System.Drawing.Size(355, 89);
+            this.txtCaption.Size = new System.Drawing.Size(266, 72);
             this.txtCaption.TabIndex = 3;
             this.txtCaption.TextChanged += new System.EventHandler(this.TxtCaption_TextChanged);
             this.txtCaption.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TxtCaption_KeyPress);
@@ -136,9 +138,10 @@
             // 
             this.lblPhotoTakenDate.AutoSize = true;
             this.lblPhotoTakenDate.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblPhotoTakenDate.Location = new System.Drawing.Point(3, 186);
+            this.lblPhotoTakenDate.Location = new System.Drawing.Point(2, 148);
+            this.lblPhotoTakenDate.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblPhotoTakenDate.Name = "lblPhotoTakenDate";
-            this.lblPhotoTakenDate.Size = new System.Drawing.Size(187, 93);
+            this.lblPhotoTakenDate.Size = new System.Drawing.Size(141, 74);
             this.lblPhotoTakenDate.TabIndex = 4;
             this.lblPhotoTakenDate.Text = "&Date Taken";
             this.lblPhotoTakenDate.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -147,24 +150,13 @@
             // 
             this.lblPhotographer.AutoSize = true;
             this.lblPhotographer.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblPhotographer.Location = new System.Drawing.Point(3, 279);
+            this.lblPhotographer.Location = new System.Drawing.Point(2, 222);
+            this.lblPhotographer.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblPhotographer.Name = "lblPhotographer";
-            this.lblPhotographer.Size = new System.Drawing.Size(187, 93);
+            this.lblPhotographer.Size = new System.Drawing.Size(141, 75);
             this.lblPhotographer.TabIndex = 6;
             this.lblPhotographer.Text = "&Photographer";
             this.lblPhotographer.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // mskDateTaken
-            // 
-            this.mskDateTaken.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.mskDateTaken.Location = new System.Drawing.Point(196, 188);
-            this.mskDateTaken.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.mskDateTaken.Mask = "00/00/0000";
-            this.mskDateTaken.Name = "mskDateTaken";
-            this.mskDateTaken.Size = new System.Drawing.Size(355, 25);
-            this.mskDateTaken.TabIndex = 5;
-            this.mskDateTaken.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.mskDateTaken.TypeValidationCompleted += new System.Windows.Forms.TypeValidationEventHandler(this.MskDateTaken_TypeValidationCompleted);
             // 
             // comboPhotographer
             // 
@@ -172,11 +164,10 @@
             this.comboPhotographer.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
             this.comboPhotographer.Dock = System.Windows.Forms.DockStyle.Fill;
             this.comboPhotographer.FormattingEnabled = true;
-            this.comboPhotographer.Location = new System.Drawing.Point(197, 283);
-            this.comboPhotographer.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.comboPhotographer.Location = new System.Drawing.Point(148, 225);
             this.comboPhotographer.MaxDropDownItems = 4;
             this.comboPhotographer.Name = "comboPhotographer";
-            this.comboPhotographer.Size = new System.Drawing.Size(353, 23);
+            this.comboPhotographer.Size = new System.Drawing.Size(264, 20);
             this.comboPhotographer.Sorted = true;
             this.comboPhotographer.TabIndex = 7;
             this.comboPhotographer.TextChanged += new System.EventHandler(this.ComboPhotographer_TextChanged);
@@ -185,9 +176,10 @@
             // lblNotes
             // 
             this.lblNotes.AutoSize = true;
-            this.lblNotes.Location = new System.Drawing.Point(4, 448);
+            this.lblNotes.Location = new System.Drawing.Point(3, 359);
+            this.lblNotes.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblNotes.Name = "lblNotes";
-            this.lblNotes.Size = new System.Drawing.Size(47, 15);
+            this.lblNotes.Size = new System.Drawing.Size(35, 12);
             this.lblNotes.TabIndex = 2;
             this.lblNotes.Text = "&Notes";
             // 
@@ -196,12 +188,12 @@
             this.txtNotes.AcceptsReturn = true;
             this.txtNotes.ContextMenuStrip = this.contextMenuStrip1;
             this.txtNotes.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.txtNotes.Location = new System.Drawing.Point(0, 473);
-            this.txtNotes.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtNotes.Location = new System.Drawing.Point(0, 377);
+            this.txtNotes.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
             this.txtNotes.Multiline = true;
             this.txtNotes.Name = "txtNotes";
             this.txtNotes.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.txtNotes.Size = new System.Drawing.Size(556, 159);
+            this.txtNotes.Size = new System.Drawing.Size(417, 128);
             this.txtNotes.TabIndex = 3;
             // 
             // contextMenuStrip1
@@ -217,57 +209,57 @@
             this.toolStripMenuItem2,
             this.tsmiSelectAll});
             this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(143, 160);
+            this.contextMenuStrip1.Size = new System.Drawing.Size(125, 148);
             this.contextMenuStrip1.Opened += new System.EventHandler(this.ContextMenuStrip1_Opened);
             // 
             // tsmiUndo
             // 
             this.tsmiUndo.Name = "tsmiUndo";
-            this.tsmiUndo.Size = new System.Drawing.Size(142, 24);
+            this.tsmiUndo.Size = new System.Drawing.Size(124, 22);
             this.tsmiUndo.Text = "&Undo";
             this.tsmiUndo.Click += new System.EventHandler(this.TsmiUndo_Click);
             // 
             // toolStripMenuItem1
             // 
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(139, 6);
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(121, 6);
             // 
             // tsmiCopy
             // 
             this.tsmiCopy.Name = "tsmiCopy";
-            this.tsmiCopy.Size = new System.Drawing.Size(142, 24);
+            this.tsmiCopy.Size = new System.Drawing.Size(124, 22);
             this.tsmiCopy.Text = "&Copy";
             this.tsmiCopy.Click += new System.EventHandler(this.TsmiCopy_Click);
             // 
             // tsmiCut
             // 
             this.tsmiCut.Name = "tsmiCut";
-            this.tsmiCut.Size = new System.Drawing.Size(142, 24);
+            this.tsmiCut.Size = new System.Drawing.Size(124, 22);
             this.tsmiCut.Text = "C&UT";
             // 
             // tsmiPaste
             // 
             this.tsmiPaste.Name = "tsmiPaste";
-            this.tsmiPaste.Size = new System.Drawing.Size(142, 24);
+            this.tsmiPaste.Size = new System.Drawing.Size(124, 22);
             this.tsmiPaste.Text = "&Paste";
             this.tsmiPaste.Click += new System.EventHandler(this.TsmiPaste_Click);
             // 
             // tsmiDelete
             // 
             this.tsmiDelete.Name = "tsmiDelete";
-            this.tsmiDelete.Size = new System.Drawing.Size(142, 24);
+            this.tsmiDelete.Size = new System.Drawing.Size(124, 22);
             this.tsmiDelete.Text = "&Delete";
             this.tsmiDelete.Click += new System.EventHandler(this.TsmiDelete_Click);
             // 
             // toolStripMenuItem2
             // 
             this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(139, 6);
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(121, 6);
             // 
             // tsmiSelectAll
             // 
             this.tsmiSelectAll.Name = "tsmiSelectAll";
-            this.tsmiSelectAll.Size = new System.Drawing.Size(142, 24);
+            this.tsmiSelectAll.Size = new System.Drawing.Size(124, 22);
             this.tsmiSelectAll.Text = "&SelectAll";
             this.tsmiSelectAll.Click += new System.EventHandler(this.TsmiSelectAll_Click);
             // 
@@ -275,13 +267,20 @@
             // 
             this.toolTip1.IsBalloon = true;
             // 
+            // dtpDateTaken
+            // 
+            this.dtpDateTaken.Location = new System.Drawing.Point(148, 151);
+            this.dtpDateTaken.Name = "dtpDateTaken";
+            this.dtpDateTaken.Size = new System.Drawing.Size(264, 21);
+            this.dtpDateTaken.TabIndex = 5;
+            // 
             // PhotoEditDialog
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
-            this.ClientSize = new System.Drawing.Size(556, 632);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.ClientSize = new System.Drawing.Size(417, 505);
             this.Controls.Add(this.txtNotes);
             this.Controls.Add(this.lblNotes);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(3, 3, 3, 3);
             this.Name = "PhotoEditDialog";
             this.Text = "Photo Properties";
             this.Controls.SetChildIndex(this.panel1, 0);
@@ -316,8 +315,8 @@
         private System.Windows.Forms.ToolStripMenuItem tsmiDelete;
         private System.Windows.Forms.ToolStripSeparator toolStripMenuItem2;
         private System.Windows.Forms.ToolStripMenuItem tsmiSelectAll;
-        private System.Windows.Forms.MaskedTextBox mskDateTaken;
         private System.Windows.Forms.ToolTip toolTip1;
         private System.Windows.Forms.ComboBox comboPhotographer;
+        private System.Windows.Forms.DateTimePicker dtpDateTaken;
     }
 }

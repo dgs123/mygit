@@ -241,7 +241,7 @@ namespace MyPhotos
                     }
                     catch (AlbumStorageException aex)
                     {
-                        string msg = string.Format("Unable to open album file {0)\n{1}", path, aex);
+                        string msg = string.Format("Unable to open album file {0}\n{1}", path, aex);
                         MessageBox.Show(msg, "Unable to Open");
                         Manager = new AlbumManager();
                     }

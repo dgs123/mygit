@@ -141,7 +141,7 @@ namespace Manning.MyPhotoAlbum
             ReleaseImage();
         }
 
-        private void ReleaseImage()
+        public void ReleaseImage()
         {
             if (_bitmap != null)
             {

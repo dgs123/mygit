@@ -13,3 +13,17 @@ F:\Code\WindowsFormsBianChengShiZhan\Chapter02\MyPhotoControls\obj\Debug\MyPhoto
 F:\Code\WindowsFormsBianChengShiZhan\Chapter02\MyPhotoControls\obj\Debug\Manning.MyPhotoControls.PhotoEditDialog.resources
 F:\Code\WindowsFormsBianChengShiZhan\Chapter02\MyPhotoControls\obj\Debug\Manning.MyPhotoControls.AlbumEditDialog.resources
 F:\Code\WindowsFormsBianChengShiZhan\Chapter02\MyPhotoControls\obj\Debug\Manning.MyPhotoControls.AlbumPasswordDialog.resources
+D:\mygit\Chapter02\MyPhotoControls\bin\Debug\MyPhotoControls.dll
+D:\mygit\Chapter02\MyPhotoControls\bin\Debug\MyPhotoControls.pdb
+D:\mygit\Chapter02\MyPhotoControls\bin\Debug\MyPhotoAlbum.dll
+D:\mygit\Chapter02\MyPhotoControls\bin\Debug\MyPhotoAlbum.pdb
+D:\mygit\Chapter02\MyPhotoControls\obj\Debug\MyPhotoControls.csprojAssemblyReference.cache
+D:\mygit\Chapter02\MyPhotoControls\obj\Debug\Manning.MyPhotoControls.AlbumEditDialog.resources
+D:\mygit\Chapter02\MyPhotoControls\obj\Debug\Manning.MyPhotoControls.AlbumPasswordDialog.resources
+D:\mygit\Chapter02\MyPhotoControls\obj\Debug\Manning.MyPhotoControls.BaseEditDialog.resources
+D:\mygit\Chapter02\MyPhotoControls\obj\Debug\Manning.MyPhotoControls.PhotoEditDialog.resources
+D:\mygit\Chapter02\MyPhotoControls\obj\Debug\Manning.MyPhotoControls.PixelDialog.resources
+D:\mygit\Chapter02\MyPhotoControls\obj\Debug\MyPhotoControls.csproj.GenerateResource.cache
+D:\mygit\Chapter02\MyPhotoControls\obj\Debug\MyPhotoControls.csproj.CopyComplete
+D:\mygit\Chapter02\MyPhotoControls\obj\Debug\MyPhotoControls.dll
+D:\mygit\Chapter02\MyPhotoControls\obj\Debug\MyPhotoControls.pdb
