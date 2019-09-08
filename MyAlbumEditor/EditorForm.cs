@@ -327,7 +327,7 @@ namespace MyAlbumEditor
             //Determine image rectangle
             Rectangle imageRect = ImageUtility.ScaleToFit(p.Image, DrawRect);
             imageRect.X = e.Bounds.X + 2;
-            imageRect.Y = e.Bounds + 1;
+            imageRect.Y = e.Bounds.Y + 1;
             // Draw text image
             g.DrawImage(p.Image, imageRect);
             g.DrawRectangle(Pens.Black, imageRect);
