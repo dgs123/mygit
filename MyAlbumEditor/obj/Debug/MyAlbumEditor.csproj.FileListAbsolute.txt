@@ -28,3 +28,4 @@ D:\mygit\MyAlbumEditor\obj\Debug\MyAlbumEditor.csproj.GenerateResource.cache
 D:\mygit\MyAlbumEditor\obj\Debug\MyAlbumEditor.csproj.CopyComplete
 D:\mygit\MyAlbumEditor\obj\Debug\MyAlbumEditor.exe
 D:\mygit\MyAlbumEditor\obj\Debug\MyAlbumEditor.pdb
+D:\mygit\MyAlbumEditor\obj\Debug\MyAlbumEditor.AlbumImage.resources

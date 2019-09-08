@@ -35,18 +35,21 @@
             // 
             this.calendarDates.Dock = System.Windows.Forms.DockStyle.Fill;
             this.calendarDates.Location = new System.Drawing.Point(0, 0);
+            this.calendarDates.Margin = new System.Windows.Forms.Padding(14, 14, 14, 14);
             this.calendarDates.MaxSelectionCount = 1;
             this.calendarDates.Name = "calendarDates";
             this.calendarDates.ShowToday = false;
             this.calendarDates.TabIndex = 0;
+            this.calendarDates.MouseDown += new System.Windows.Forms.MouseEventHandler(this.calendarDates_MouseDown);
             // 
             // AlbumCalendar
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.calendarDates);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "AlbumCalendar";
-            this.Size = new System.Drawing.Size(229, 189);
+            this.Size = new System.Drawing.Size(344, 284);
             this.ResumeLayout(false);
 
         }

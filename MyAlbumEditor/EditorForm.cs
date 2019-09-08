@@ -71,10 +71,7 @@ namespace MyAlbumEditor
         {
             if (Manager == null)
             {
-                pagePhotos.Enabled = false;
-                btnAlbumProps.Enabled = false;
-                Text = "The selected album " +
-                    "could not be opened";
+               
                 lstPhotos.BackColor = SystemColors.Control;
                 lstPhotos.Items.Clear();
             }
@@ -280,6 +277,7 @@ namespace MyAlbumEditor
                 }
             }
             DisplayAlbum();
+            UpdateTabs();
             EnablePhotoButtons();
         }
 
@@ -354,6 +352,38 @@ namespace MyAlbumEditor
             }
             // Draw the text
             g.DrawString(lstPhotos.GetItemText(p), e.Font, textBrush, textRect);
+        }
+
+        private void tcPhotos_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            UpdateTabs();
+        }
+
+        private void UpdateTabs()
+        {
+            bool nullManager = (Manager == null);
+            if (nullManager)
+            {
+                Text = "Select album could not be opened";
+            }
+            else
+            {
+                Text = "Album " + Manager.ShortName;
+            }
+            btnAlbumProps.Enabled = !nullManager;
+            tcPhotos.Enabled = !nullManager;
+            if (tcPhotos.SelectedTab == pagePhotos)
+            {
+                DisplayAlbum();
+            }
+            else if (tcPhotos.SelectedTab == pageDates)
+            {
+                albumCalendar.Manager = Manager;
+            }
+            else if (tcPhotos.SelectedTab == pageImages)
+            {
+                albumImages.Manager = Manager;
+            }
         }
     }
 }
