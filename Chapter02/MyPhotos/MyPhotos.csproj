@@ -92,5 +92,9 @@
       <Name>MyPhotoControls</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\PrevBitmap.bmp" />
+    <Content Include="Resources\NextBitmap.bmp" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
