@@ -37,6 +37,7 @@
             this.lblPhotoTakenDate = new System.Windows.Forms.Label();
             this.lblPhotographer = new System.Windows.Forms.Label();
             this.comboPhotographer = new System.Windows.Forms.ComboBox();
+            this.dtpDateTaken = new System.Windows.Forms.DateTimePicker();
             this.lblNotes = new System.Windows.Forms.Label();
             this.txtNotes = new System.Windows.Forms.TextBox();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
@@ -49,7 +50,6 @@
             this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripSeparator();
             this.tsmiSelectAll = new System.Windows.Forms.ToolStripMenuItem();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
-            this.dtpDateTaken = new System.Windows.Forms.DateTimePicker();
             this.panel1.SuspendLayout();
             this.tablePanel.SuspendLayout();
             this.contextMenuStrip1.SuspendLayout();
@@ -58,7 +58,7 @@
             // panel1
             // 
             this.panel1.Controls.Add(this.tablePanel);
-            this.panel1.Margin = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.panel1.Margin = new System.Windows.Forms.Padding(3);
             this.panel1.Size = new System.Drawing.Size(417, 299);
             // 
             // tablePanel
@@ -173,6 +173,13 @@
             this.comboPhotographer.TextChanged += new System.EventHandler(this.ComboPhotographer_TextChanged);
             this.comboPhotographer.Leave += new System.EventHandler(this.ComboPhotographer_Leave);
             // 
+            // dtpDateTaken
+            // 
+            this.dtpDateTaken.Location = new System.Drawing.Point(148, 151);
+            this.dtpDateTaken.Name = "dtpDateTaken";
+            this.dtpDateTaken.Size = new System.Drawing.Size(264, 21);
+            this.dtpDateTaken.TabIndex = 5;
+            // 
             // lblNotes
             // 
             this.lblNotes.AutoSize = true;
@@ -267,20 +274,13 @@
             // 
             this.toolTip1.IsBalloon = true;
             // 
-            // dtpDateTaken
-            // 
-            this.dtpDateTaken.Location = new System.Drawing.Point(148, 151);
-            this.dtpDateTaken.Name = "dtpDateTaken";
-            this.dtpDateTaken.Size = new System.Drawing.Size(264, 21);
-            this.dtpDateTaken.TabIndex = 5;
-            // 
             // PhotoEditDialog
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.ClientSize = new System.Drawing.Size(417, 505);
             this.Controls.Add(this.txtNotes);
             this.Controls.Add(this.lblNotes);
-            this.Margin = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.Margin = new System.Windows.Forms.Padding(3);
             this.Name = "PhotoEditDialog";
             this.Text = "Photo Properties";
             this.Controls.SetChildIndex(this.panel1, 0);

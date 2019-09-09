@@ -13,3 +13,17 @@ F:\Code\WindowsFormsBianChengShiZhan\Chapter02\MyPhotos\bin\Debug\MyPhotoAlbum.p
 F:\Code\WindowsFormsBianChengShiZhan\Chapter02\MyPhotos\obj\Debug\MyPhotos.csproj.CopyComplete
 F:\Code\WindowsFormsBianChengShiZhan\Chapter02\MyPhotos\bin\Debug\MyPhotoControls.dll
 F:\Code\WindowsFormsBianChengShiZhan\Chapter02\MyPhotos\bin\Debug\MyPhotoControls.pdb
+D:\mygit\Chapter02\MyPhotos\bin\Debug\MyPhotos.exe.config
+D:\mygit\Chapter02\MyPhotos\bin\Debug\MyPhotos.exe
+D:\mygit\Chapter02\MyPhotos\bin\Debug\MyPhotos.pdb
+D:\mygit\Chapter02\MyPhotos\bin\Debug\MyPhotoAlbum.dll
+D:\mygit\Chapter02\MyPhotos\bin\Debug\MyPhotoControls.dll
+D:\mygit\Chapter02\MyPhotos\bin\Debug\MyPhotoAlbum.pdb
+D:\mygit\Chapter02\MyPhotos\bin\Debug\MyPhotoControls.pdb
+D:\mygit\Chapter02\MyPhotos\obj\Debug\MyPhotos.csprojAssemblyReference.cache
+D:\mygit\Chapter02\MyPhotos\obj\Debug\MyPhotos.MainForm.resources
+D:\mygit\Chapter02\MyPhotos\obj\Debug\MyPhotos.Properties.Resources.resources
+D:\mygit\Chapter02\MyPhotos\obj\Debug\MyPhotos.csproj.GenerateResource.cache
+D:\mygit\Chapter02\MyPhotos\obj\Debug\MyPhotos.csproj.CopyComplete
+D:\mygit\Chapter02\MyPhotos\obj\Debug\MyPhotos.exe
+D:\mygit\Chapter02\MyPhotos\obj\Debug\MyPhotos.pdb

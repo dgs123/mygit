@@ -52,9 +52,9 @@ namespace MyPhotos
         private PhoteAlbum _album;
         private long _num;
         private long _den;
- 
+
         #endregion
-         
+
         public MainForm()
         {
             InitializeComponent();       //调用设计器生成的代码
@@ -73,7 +73,7 @@ namespace MyPhotos
                 Manager = new AlbumManager();
                 DisplayAlbum();
             }
-           
+
         }
         private void DisplayAlbum()
         {
@@ -92,10 +92,10 @@ namespace MyPhotos
         {
             Version version = new Version(Application.ProductVersion);
             string name = Manager.FullName;
-            Text = String.Format("{2} - MyPhotos {0:0}.{1:0}", 
-                version.Major, 
+            Text = String.Format("{2} - MyPhotos {0:0}.{1:0}",
+                version.Major,
                 version.Minor,
-                string.IsNullOrEmpty(name)?"Untitled":name);
+                string.IsNullOrEmpty(name) ? "Untitled" : name);
         }
 
         private void MenuLoad_Click(object sender, EventArgs e)
@@ -112,7 +112,7 @@ namespace MyPhotos
                 try
                 {
                     pbxPhoto.Image = new Bitmap(dlg.OpenFile());
-                    
+
                 }
                 catch (ArgumentException ae)
                 {
@@ -123,7 +123,7 @@ namespace MyPhotos
             }
             dlg.Dispose();
         }
-        private void menu_NotImplementd(object sender,EventArgs e)
+        private void menu_NotImplementd(object sender, EventArgs e)
         {
             MessageBox.Show("This function would not ready");
         }
@@ -134,7 +134,7 @@ namespace MyPhotos
 
         private void MenuClear_Click(object sender, EventArgs e)
         {
-            pbxPhoto.Image = null; 
+            pbxPhoto.Image = null;
         }
 
         private void MenuImage_DropDownItemClicked(object sender, ToolStripItemClickedEventArgs e)
@@ -188,7 +188,7 @@ namespace MyPhotos
 
                 //statusAlbumpos is set in ch. 5
                 statusAlbumPos.Text = string.Format(" {0:0}/{1:0} ",
-                    Manager.Index + 1, 
+                    Manager.Index + 1,
                     Manager.Album.Count);
             }
             else
@@ -201,7 +201,7 @@ namespace MyPhotos
 
         private void StatusBorder_DropDownItemClicked(object sender, ToolStripItemClickedEventArgs e)
         {
-            ProcessBorderStyle( e);
+            ProcessBorderStyle(e);
         }
 
         private void ProcessBorderStyle(ToolStripItemClickedEventArgs e)
@@ -222,34 +222,36 @@ namespace MyPhotos
 
         private void MenuFileOpen_Click(object sender, EventArgs e)
         {
-
-          
-                string path = null;
-                string password = null;
-                if (AlbumController.OpenAlbumDialog(ref path,ref password))
+            string path = null;
+            string password = null;
+            if (AlbumController.OpenAlbumDialog(ref path, ref password))
+            {
+                // Close existing album
+                if (!SaveAndCloseAlbum())
                 {
-                    // Close existing album
-                    if (!SaveAndCloseAlbum())
-                    {
-                        return;// close canceled
-                    }
-                    //TODO： save any existing album.
-                    try
-                    {
-                        // Open the new album
-                        Manager = new AlbumManager(path, password);
-                    }
-                    catch (AlbumStorageException aex)
-                    {
-                        string msg = string.Format("Unable to open album file {0}\n{1}", path, aex);
-                        MessageBox.Show(msg, "Unable to Open");
-                        Manager = new AlbumManager();
-                    }
-
-                    // Open the new album
-                    // TODO: handle invalid album file 
-                    DisplayAlbum();
+                    return;// close canceled
                 }
+                //TODO： save any existing album.
+                // Open the new album
+                try
+                {
+                    // Open the new album
+                    Manager = new AlbumManager(path, password);
+                }
+                catch (AlbumStorageException aex)
+                {
+                    string msg = string.Format("Unable to open album file {0}\n{1}", path, aex);
+                    MessageBox.Show(msg, "Unable to Open");
+                    Manager = new AlbumManager();
+                }
+                finally
+                {
+                    Cursor.Current = Cursors.Default;
+                } 
+                // Open the new album
+                // TODO: handle invalid album file 
+                DisplayAlbum();
+            }
         }
         private void SaveAlbum(string name)
         {
@@ -273,7 +275,7 @@ namespace MyPhotos
                     SaveAsAlbum();
                 }
             }
-            
+
         }
         private void SaveAlbum()
         {
@@ -289,14 +291,14 @@ namespace MyPhotos
         }
         private bool SaveAndCloseAlbum()
         {
-            DialogResult result  = AlbumController.AskForSave(Manager);
+            DialogResult result = AlbumController.AskForSave(Manager);
             if (result == DialogResult.Yes)
             {
                 SaveAlbum();
             }
-            else if(result == DialogResult.Cancel)
+            else if (result == DialogResult.Cancel)
             {
-                return false;   
+                return false;
             }
             // Close the album and return true
             if (Manager.Album != null)
@@ -409,7 +411,7 @@ namespace MyPhotos
 
         private void MenuNext_Click(object sender, EventArgs e)
         {
-            if (Manager.Index < Manager.Album.Count -1)
+            if (Manager.Index < Manager.Album.Count - 1)
             {
                 Manager.Index++;
                 DisplayAlbum();
@@ -482,7 +484,7 @@ namespace MyPhotos
             {
                 Bitmap bmp = Manager.CurrentImage;
                 PixelForm.Text = (Manager.Current == null ? "Pixel Data" : Manager.Current.Caption);
-                if (bmp == null || !pbxPhoto.DisplayRectangle.Contains(x,y))
+                if (bmp == null || !pbxPhoto.DisplayRectangle.Contains(x, y))
                 {
                     PixelForm.ClearPixelData();
                 }
@@ -540,14 +542,14 @@ namespace MyPhotos
                 case '-':
                     menuPrevious.PerformClick();
                     e.Handled = true;
-                    break; 
+                    break;
             }
             // Invoke the base method
             base.OnKeyPress(e);
         }
         protected override void OnKeyDown(KeyEventArgs e)
         {
-            
+
 
             switch (e.KeyCode)
             {
@@ -555,8 +557,9 @@ namespace MyPhotos
                     if (e.KeyData == Keys.Shift)
                     {
                         menuFirst.PerformClick();
-                    }else
-                    menuPrevious.PerformClick();
+                    }
+                    else
+                        menuPrevious.PerformClick();
                     e.Handled = true;
                     break;
                 case Keys.PageDown:
@@ -565,7 +568,7 @@ namespace MyPhotos
                         menuLast.PerformClick();
                     }
                     else
-                    menuNext.PerformClick();
+                        menuNext.PerformClick();
                     e.Handled = true;
                     break;
                 case Keys.Home:
